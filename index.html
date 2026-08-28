@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Marcelo Pinto — Desenvolvedor Android</title>
+<style>
+  :root {
+    --bg: #0f172a;
+    --card: #1e293b;
+    --accent: #fad02c;
+    --text: #e2e8f0;
+    --text-muted: #94a3b8;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+  }
+
+  .container {
+    max-width: 640px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .avatar {
+    font-size: 64px;
+    margin-bottom: 16px;
+    display: block;
+  }
+
+  h1 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+
+  .subtitle {
+    color: var(--text-muted);
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+
+  .apps {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .app-card {
+    background: var(--card);
+    border-radius: 16px;
+    padding: 28px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-align: left;
+    text-decoration: none;
+    color: var(--text);
+    border: 1px solid rgba(255,255,255,0.08);
+    transition: transform 0.15s ease, border-color 0.15s ease;
+  }
+
+  .app-card:hover {
+    transform: translateY(-2px);
+    border-color: var(--accent);
+  }
+
+  .app-icon {
+    font-size: 44px;
+    background: rgba(250, 208, 44, 0.12);
+    width: 72px;
+    height: 72px;
+    min-width: 72px;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .app-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 18px;
+  }
+
+  .app-info h2 {
+    font-size: 19px;
+    margin-bottom: 4px;
+  }
+
+  .app-info p {
+    color: var(--text-muted);
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .badge {
+    display: inline-block;
+    margin-top: 8px;
+    font-size: 12px;
+    color: var(--accent);
+    font-weight: 600;
+  }
+
+  footer {
+    margin-top: 48px;
+    color: var(--text-muted);
+    font-size: 13px;
+  }
+
+  footer a {
+    color: var(--text-muted);
+    text-decoration: underline;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <span class="avatar">👨‍💻</span>
+    <h1>Marcelo Pinto</h1>
+    <p class="subtitle">Desenvolvedor Android</p>
+
+    <div class="apps">
+      <a class="app-card" href="https://play.google.com/store/apps/details?id=br.dev.marcelopinto.raia4" target="_blank" rel="noopener">
+        <div class="app-icon"><img src="imagens/raia4-icon.png" alt="Ícone do Raia 4"></div>
+        <div class="app-info">
+          <h2>Raia 4</h2>
+          <p>Acompanhe resultados de competições de natação, boletins e notícias da CBDA e confederações. Consulte provas disputadas, gráficos de desempenho (tempo x data), índices para competições e todos os documentos oficiais — além de duelos divertidos entre atletas.</p>
+          <span class="badge">Disponível no Google Play →</span>
+        </div>
+      </a>
+
+      <a class="app-card" href="https://play.google.com/store/apps/details?id=br.dev.marcelopinto.queens" target="_blank" rel="noopener">
+        <div class="app-icon">👑</div>
+        <div class="app-info">
+          <h2>Queens</h2>
+          <p>Um quebra-cabeça de lógica: posicione as rainhas no tabuleiro seguindo as regras de linha, coluna, região e adjacência.</p>
+          <span class="badge">Disponível no Google Play →</span>
+        </div>
+      </a>
+
+      <a class="app-card" href="https://play.google.com/store/apps/details?id=br.dev.jogodaforcakotlin" target="_blank" rel="noopener">
+        <div class="app-icon"><img src="imagens/forca-icon.png" alt="Ícone do Jogo da Forca"></div>
+        <div class="app-info">
+          <h2>Jogo da Forca</h2>
+          <p>O tradicional jogo de adivinhar palavras letra por letra, em uma versão simples e rápida para o Android.</p>
+          <span class="badge">Disponível no Google Play →</span>
+        </div>
+      </a>
+    </div>
+
+    <footer>
+      <p>Contato: raia4.aplicativo@gmail.com</p>
+    </footer>
+  </div>
+</body>
+</html>
