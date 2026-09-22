@@ -1,0 +1,17 @@
+{
+  "producao": {
+    "apiUrl": "https://parseapi.back4app.com/",
+    "appId": "mT1XsWAVhllU333Uy2o57qPQ0Z4d6tnTUXWK2lKw",
+    "clientKey": "N49iDc0eq7oV0C9ecnvfp8IwDUVUO7d5TUInxc1O"
+  },
+  "teste": {
+    "apiUrl": "https://parseapi.back4app.com/",
+    "appId": "df0nGxgl9BX9VWE0MsOFDmJyzO8P7ASu6UsolWfW",
+    "clientKey": "eS5Jo6X0RFh6lY1IrRz0QJXJyM5MY71n96udMyTy"
+  },
+  "dispositivosDeTeste": [
+    "f6e381b6c874a3b0",
+    "c7a06abb9664d358",
+    "6ad4737cc50fbea4"
+  ]
+}
